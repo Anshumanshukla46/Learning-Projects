@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #e3eef8;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+    font-size: large;
+}
+
+
+.nav ul li img {
+    width: 80px;
+    height: 30px;
+}
+
+li a {
+    display: block;
+    color: #9098a3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    cursor: pointer;
+}
+
+.nav ul li a img {
+    float: left;
+}
+
+.nav ul li a {
+    float: left;
+}
+
+.nav ul li button {
+    float: right;
+    background-color: #e2eefa;
+    color: #75a2da;
+    border: 2px solid rgb(119, 158, 197);
+    border-radius: 3px;
+    padding: 10px;
+
+    cursor: pointer;
+}
+
+.main {
+    display: inline-block;
+    width: 100%;
+    padding-top: 80px;
+    text-align: center;
+    margin: auto;
+}
+
+.main #tagline {
+    color: #9098a3;
+}
+
+.main .heading {
+    font-size: 8vh;
+
+}
+
+.main .below-head {
+    color: #9098a3;
+    font-size: x-large;
+}
+
+input[type=email] {
+    width: 25%;
+    padding: 15px 20px;
+    margin: 8px 5px;
+    border: none;
+}
+
+#subscribe {
+    padding: 12px 20px;
+    width: 10%;
+    background-color: #fa593c;
+    border: none;
+    color: white;
+
+    font-size: medium
+}
+
+#subscribe:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.below-email {
+    color: #9098a3;
+    font-size: small;
+}
+
+.footer {
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: row;
+    justify-content: center;
+    justify-items: stretch;
+    justify-self: center;
+
+    /* border: 2px solid black; */
+}
+
+.footer img {
+    width: 100px;
+    height: 100px;
+}
+
+/* 
+h4 {
+    display: inline-block;
+} */
+
+.one {
+    /* border: 2px solid black; */
+    margin: 10px
+}
+
+.two {
+    /* border: 2px solid black; */
+    margin: 10px;
+}
+
+.three {
+    /* border: 2px solid black; */
+    margin: 10px;
+}
+
+.oneUnder,
+.twoUnder,
+.threeUnder {
+    display: flex;
+    flex-direction: column;
+}
