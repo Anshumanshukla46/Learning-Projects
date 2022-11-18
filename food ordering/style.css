@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    text-align: center;
+}
+
+hr {
+    margin: 5px;
+}
+
+.nav {
+    text-align: center;
+    /* display: block; */
+    background-color: #7f7f7f;
+
+    border: 2px solid black;
+    border-radius: 6px;
+
+    height: 13vh;
+}
+
+.nav img {
+    width: 5vw;
+    height: 5vh;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+    cursor: pointer;
+}
+
+/* 
+    for :horizontal nav-bar 
+    ul -> list-style-type :  none;
+    li -> display : inline;
+*/
+
+.nav ul li {
+    display: inline;
+    padding: 20px;
+    margin: 20px;
+}
+
+.nav ul li:hover {
+    background-color: red;
+    border-radius: 3px;
+    /* border: 2px solid black; */
+
+    color: rgb(245, 245, 159);
+}
+
+.welcome {
+    background-image: url(./restourant.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(222, 201, 201);
+    width: 100%;
+    height: 420px;
+    position: relative;
+}
+
+.welcome h3 {
+    text-align: center;
+}
+
+.welcome .order {
+    margin: 0;
+    position: absolute;
+    top: 8%;
+    left: 47%;
+    background-color: #f3f62e;
+    color: black;
+    font-size: 16px;
+    padding: 5px 5px;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.left {
+    margin-left: 20%;
+    float: left;
+
+}
+
+.right {
+    float: right;
+    margin-right: 20%;
+}
+
+.welcome .horizontal .left img,
+.welcome .horizontal .right img,
+.f-left img,
+.f-middle img,
+.f-right img {
+    width: 360px;
+    height: 300px;
+    /* padding: 20px; */
+    border: 2px solid rgb(138, 138, 136);
+    box-shadow: 10px 10px 10px 5px rgb(144, 113, 56);
+
+}
+
+.left,
+.right {
+    position: relative;
+}
+
+
+.left .prices,
+.right .specials {
+    position: absolute;
+    bottom: 5px;
+    left: 40%;
+    background-color: #f3f62e;
+    color: black;
+    font-size: 16px;
+    padding: 5px 5px;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.left .prices:hover,
+.right .specials:hover,
+.order:hover {
+    background-color: red;
+}
+
+
+.featured {
+    text-align: center;
+    position: relative;
+
+}
+
+.forleft {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.featured h2 {
+    margin: 10px;
+    color: #be2c23;
+}
+
+.f-left button,
+.f-middle button,
+.f-right button {
+    position: absolute;
+    bottom: 7px;
+    left: 48%;
+    background-color: #f3f62e;
+    color: black;
+    font-size: 16px;
+    padding: 5px 5px;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}

@@ -1,0 +1,58 @@
+body {
+    background-color: gray;
+    /* color: white; */
+    border: none;
+}
+
+body h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: white;
+}
+
+.form {
+    background-color: white;
+    border: 2px solid black;
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+}
+
+label {
+    margin-bottom: 19px;
+}
+
+input[id="name"],
+input[id="email"],
+input[id="age"],
+select[id="occ"],
+textarea[id="suggestions"],
+input[type="submit"] {
+    width: 98%;
+    margin: auto;
+    padding: 6px;
+
+    border: 1px solid black;
+}
+
+input[type="submit"] {
+    margin-top: 20px;
+    background-color: #0e1913;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: larger;
+}
+
+input[type="submit"]:hover {
+    background-color: #6c726f;
+}
+
+label {
+    font-size: large;
+}
+
+/* input:focus {
+    transition: width 0.4s ease-in-out;
+    width: 98%;
+} */
